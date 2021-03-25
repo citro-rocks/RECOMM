@@ -1,0 +1,328 @@
+{
+  "albums": [
+    {
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "year": "1991",
+      "ganre": "Rock",
+      "subganre": "Grunge",
+      "description": "Important gunge",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg",
+      "wiki": "https://en.wikipedia.org/wiki/Nirvana_(band)",
+      "spotify": "https://open.spotify.com/album/6yaiubHHJy8N8QcHy3julo",
+      "deezer": "https://www.deezer.com/en/album/1262014",
+      "youtube": "https://www.youtube.com/channel/UCFMZHIQMgBXTSxsr86Caazw",
+      "facebook": "https://www.facebook.com/Nirvana",
+      "instagram": "https://www.instagram.com/nirvana.official/",
+      "web": "https://www.nirvana.com/",
+      "id": 2,
+      "categoryId": 2
+    },
+    {
+      "artist": "The Roling Stones",
+      "album": "Let It Bleed",
+      "year": "1969",
+      "ganre": "Rock",
+      "subganre": "Rock 'N' Roll",
+      "description": "Important Rock and roll album",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c0/LetitbleedRS.jpg",
+      "wiki": "https://en.wikipedia.org/wiki/Let_It_Bleed",
+      "spotify": "https://open.spotify.com/album/4l4u9e9jSbotSXNjYfOugy",
+      "deezer": "https://www.deezer.com/en/album/908516",
+      "youtube": "https://www.youtube.com/channel/UCB_Z6rBg3WW3NL4-QimhC2A",
+      "facebook": "https://www.facebook.com/therollingstones",
+      "instagram": "https://www.instagram.com/therollingstones/",
+      "web": "https://experience.rollingstones.com/",
+      "id": 3,
+      "categoryId": 2
+    },
+    {
+      "artist": "Kraftwerk",
+      "album": "Trans Europe Expres",
+      "year": 1977,
+      "ganre": "Electro",
+      "subganre": "",
+      "description": "Important electronic pioneers",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c5/Trans-Europe_Express_American.jpg",
+      "wiki": "https://en.wikipedia.org/wiki/Trans-Europe_Express_(album)",
+      "spotify": "no link",
+      "deezer": "https://www.deezer.com/search/trans-europa%20express",
+      "youtube": "no link",
+      "facebook": "https://www.facebook.com/Kraftwerk",
+      "instagram": "https://www.instagram.com/kraftwerkofficial/",
+      "web": "http://kraftwerk.com/",
+      "likes": 0,
+      "id": 4,
+      "categoryId": 3
+    },
+    {
+      "artist": "Bob Marley & The Wailers",
+      "album": "Exodus",
+      "year": "1977",
+      "ganre": "Reggae",
+      "subganre": "Reggae",
+      "description": "Important Reggae",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b8/Bob_Marley_and_the_Wailers_-_Exodus.png",
+      "wiki": "https://en.wikipedia.org/wiki/Exodus_(Bob_Marley_and_the_Wailers_album)",
+      "spotify": "https://open.spotify.com/album/1vHvJVBK0WnpbYFw4f4UTD",
+      "deezer": "https://www.deezer.com/en/album/70199552",
+      "youtube": "https://www.youtube.com/channel/UCJChTvtwAh1T2QSqEV6jxcA",
+      "facebook": "https://www.facebook.com/BobMarley",
+      "instagram": "https://www.instagram.com/bobmarley/",
+      "web": "https://www.bobmarley.com/",
+      "id": 5,
+      "categoryId": 9
+    },
+    {
+      "artist": "John Coltrane",
+      "album": "Giant Steps",
+      "year": 1958,
+      "ganre": "Jazz",
+      "subganre": "",
+      "description": "Important jazz",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2a/Coltrane_Giant_Steps.jpg",
+      "wiki": "https://en.wikipedia.org/wiki/John_Coltrane",
+      "spotify": "no link",
+      "deezer": "https://www.deezer.com/en/album/173479112",
+      "youtube": "",
+      "facebook": "https://www.facebook.com/johncoltrane",
+      "instagram": "https://www.instagram.com/johncoltrane/",
+      "web": "https://www.johncoltrane.com/",
+      "id": 6,
+      "categoryId": 6
+    },
+    {
+      "artist": "Soul II Soul",
+      "album": "Club Classics Vol. One",
+      "year": 1989,
+      "ganre": "R&B",
+      "subganre": "",
+      "description": "Important R&B",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/06/Club_classics_vol._one.jpg",
+      "wiki": "https://en.wikipedia.org/wiki/Soul_II_Soul",
+      "spotify": "https://open.spotify.com/album/5VxTLm2IZsDQn3r9eX1qfa",
+      "deezer": "https://www.deezer.com/en/album/302077",
+      "youtube": "https://www.youtube.com/channel/UCT5OlLe_UJ0ZphADcjfTPNA",
+      "facebook": "https://www.facebook.com/soul2soulofficial",
+      "instagram": "https://www.instagram.com/soul2souluk/",
+      "web": "https://soul2soul.co.uk/",
+      "id": 7,
+      "categoryId": 8
+    },
+    {
+      "artist": "Daft Punk",
+      "album": "Random Access Memories",
+      "year": 2013,
+      "ganre": "Dance",
+      "subganre": "EDM",
+      "description": "Important",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a7/Random_Access_Memories.jpg",
+      "wiki": "https://en.wikipedia.org/wiki/Daft_Punk#2011%E2%80%932015:_Random_Access_Memories",
+      "spotify": "https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa",
+      "deezer": "https://www.deezer.com/en/album/6575789",
+      "youtube": "https://www.youtube.com/channel/UC_kRDKYrUlrbtrSiyu5Tflg",
+      "facebook": "https://www.facebook.com/daftpunk",
+      "instagram": "https://www.instagram.com/daftpunk/",
+      "web": "",
+      "id": 8,
+      "categoryId": 5
+    },
+    {
+      "artist": "A Tribe Called Quest",
+      "album": "The Low End Theory",
+      "year": 1991,
+      "ganre": "Hip Hop",
+      "subganre": "",
+      "description": "Important Hip Hop",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/ATribeCalledQuestTheLowEndtheory.jpg",
+      "wiki": "https://en.wikipedia.org/wiki/A_Tribe_Called_Quest",
+      "spotify": "https://open.spotify.com/album/1p12OAWwudgMqfMzjMvl2a",
+      "youtube": "https://www.youtube.com/channel/UC2Vr5tlVtYMm46jMU9vjoyA",
+      "deezer": "https://www.deezer.com/en/album/242316",
+      "facebook": "https://www.facebook.com/ATribeCalledQuest",
+      "instagram": "https://www.instagram.com/tribecalledquestt/",
+      "web": "http://atribecalledquest.com/home/",
+      "id": 9,
+      "categoryId": 4
+    },
+    {
+      "artist": "Radiohead",
+      "album": "OK Computer",
+      "year": 1997,
+      "ganre": "Indie",
+      "subganre": "",
+      "description": "Important Indie Alternative",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/ba/Radioheadokcomputer.png",
+      "wiki": "https://en.wikipedia.org/wiki/OK_Computer",
+      "spotify": "https://open.spotify.com/album/6dVIqQ8qmQ5GBnJ9shOYGE",
+      "deezer": "https://www.deezer.com/en/album/14879699",
+      "youtube": "https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA",
+      "facebook": "https://www.facebook.com/radiohead",
+      "instagram": "https://www.instagram.com/radiohead/",
+      "web": "https://radiohead.com/",
+      "id": 10,
+      "categoryId": 10
+    },
+    {
+      "artist": "Sepultura",
+      "album": "Roots",
+      "year": 1996,
+      "ganre": "Metal",
+      "subganre": "",
+      "description": "Important Metal",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/cf/Sepultura_-_Roots.jpg",
+      "wiki": "https://en.wikipedia.org/wiki/Sepultura",
+      "spotify": "https://open.spotify.com/album/5JjnPCfpp6redrkKpXZAs8",
+      "youtube": "https://www.youtube.com/channel/UC4Prl7UQx5i5PgRUh-O5XBg",
+      "deezer": "https://www.deezer.com/en/album/85774",
+      "facebook": "https://www.facebook.com/sepultura",
+      "instagram": "https://www.instagram.com/sepultura/",
+      "web": "https://www.sepultura.com.br/",
+      "id": 11,
+      "categoryId": 11
+    },
+    {
+      "artist": "Iron & Wine",
+      "album": "The Shepherd's Dog",
+      "year": 2007,
+      "ganre": "Folk",
+      "subganre": "Indie Folk",
+      "description": "American singer and songwriter",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/95/Sheperd%27s-dog.jpg",
+      "wiki": "https://en.wikipedia.org/wiki/The_Shepherd%27s_Dog",
+      "spotify": "https://open.spotify.com/album/3fzjXU2SSKero9gVMcPivX",
+      "deezer": "https://www.deezer.com/en/album/7490153",
+      "youtube": "https://www.youtube.com/channel/UCzEOgPvZv8BZjVkfmwjtpAQ",
+      "facebook": "https://www.facebook.com/ironandwine",
+      "instagram": "https://www.instagram.com/ironandwinetour/",
+      "web": "http://ironandwine.com/",
+      "id": 14,
+      "categoryId": 12
+    },
+    {
+      "artist": "Sex Pistols",
+      "album": "Never Mind The Bollocks,<br>Here’s The Sex Pistols",
+      "year": 1977,
+      "ganre": "Punk",
+      "subganre": "Punc Rock",
+      "description": "Most influental Punk bend",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4c/Never_Mind_the_Bollocks%2C_Here%27s_the_Sex_Pistols.png",
+      "wiki": "https://en.wikipedia.org/wiki/Never_Mind_the_Bollocks,_Here%27s_the_Sex_Pistols",
+      "spotify": "https://open.spotify.com/album/5fxYu3rqjCNTSPKN8mtEl2",
+      "deezer": "https://www.deezer.com/en/album/3212841",
+      "youtube": "https://www.youtube.com/channel/UCcjWoLUPOkEVhevjI8DB5vQ",
+      "facebook": "https://www.facebook.com/sexpistolsofficial/",
+      "instagram": "https://www.instagram.com/pistolsofficial/",
+      "web": "https://www.sexpistolsofficial.com/",
+      "id": 15,
+      "categoryId": 16
+    },
+    {
+      "artist": "Calexico",
+      "album": "Algiers",
+      "year": 2012,
+      "ganre": "Rock",
+      "subganre": "Alternative rock, Indie folk",
+      "description": "Algiers is the seventh studio album by indie rock americana band Calexico, released on September 11, 2012.  The album's name comes from Algiers, New Orleans, which is where the album was recorded.",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/78/Algiers_%28album%29.jpg",
+      "wiki": "https://en.wikipedia.org/wiki/Calexico_(band)",
+      "spotify": "https://open.spotify.com/album/56iGtCqsCCTH326BvPsAgO",
+      "deezer": "https://www.deezer.com/en/album/47726512",
+      "youtube": "https://www.youtube.com/channel/UC66HWSL-hGJWfkHjqaUuQyw",
+      "facebook": "https://www.facebook.com/calexico/",
+      "instagram": "https://www.instagram.com/casadecalexico/",
+      "web": "http://www.casadecalexico.com/",
+      "id": 16,
+      "categoryId": 2 
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "ganre": "Pop",
+      "selectId": "pop"
+    },
+    {
+      "id": 2,
+      "ganre": "Rock",
+      "selectId": "rock"
+    },
+    {
+      "id": 3,
+      "ganre": "Electro",
+      "selectId": "electro"
+    },
+    {
+      "id": 4,
+      "ganre": "Hip Hop",
+      "selectId": "hiphop"
+    },
+    {
+      "id": 5,
+      "ganre": "Dance",
+      "selectId": "dance"
+    },
+    {
+      "id": 6,
+      "ganre": "Jazz",
+      "selectId": "jazz"
+    },
+    {
+      "id": 7,
+      "ganre": "Funk & Soul",
+      "selectId": "funksoul"
+    },
+    {
+      "id": 8,
+      "ganre": "R & B",
+      "selectId": "rnb"
+    },
+    {
+      "id": 9,
+      "ganre": "Reggae & Dub",
+      "selectId": "reggae"
+    },
+    {
+      "id": 10,
+      "ganre": "Indie",
+      "selectId": "indie"
+    },
+    {
+      "id": 11,
+      "ganre": "Metal",
+      "selectId": "metal"
+    },
+    {
+      "id": 12,
+      "ganre": "Folk",
+      "selectId": "folk"
+    },
+    {
+      "id": 13,
+      "ganre": "Classical",
+      "selectId": "classic"
+    },
+    {
+      "id": 14,
+      "ganre": "Latin",
+      "selectId": "latin"
+    },
+    {
+      "id": 15,
+      "ganre": "African",
+      "selectId": "african"
+    },
+    {
+      "id": 16,
+      "ganre": "Punk",
+      "selectId": "punk"
+    }
+  ],
+  "users": [
+    {
+      "userId": 1,
+      "username": "admin",
+      "password": "admin123"
+    }
+  ]
+}

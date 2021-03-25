@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Edit album</title>
+</head>
+<body>
+     <!-- Navigation -->
+     <div class="container-nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" width="150" height="30" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active" id="admin">
+                  <a class="nav-link" href="login.html">Admin pannel</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <!-- Header -->
+    <section class="header">
+        <div class="header-edit">
+            <h1>Edit album info</h1>
+        </div>
+    </section>
+     <!-- Header -->
+    <section class="view-section">
+        <div class="container container-fluid">
+            <div class="row">
+                <div class="album-edit col-md-6">
+                    <div class="album-cover" id="albumcover"></div>
+                </div>
+                <div class="album-edit col-md-6">
+                    <div class="album-info" id="albuminfo"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Edit fields -->
+    <section class="input">
+        <div class="load-info" id='load-data '></div>
+        <div class="container container-fluid">
+            <h2>Update existing album</h2>
+            <div class='load-album' id="load-data"></div>
+            <div class="row">
+                <div class="part-one col-md-6">   
+                    <div class="id">
+                        <input type="hidden" id="albumId-upd">
+                    </div>
+                    <div class="artist">
+                        <h4>Artist or a bend name</h4>
+                        <input type="text" id="artist-upd" size="40">
+                    </div>
+                    <div class="album">
+                        <h4>Album</h4>
+                        <input type="text" id="album-upd" size="40">
+                    </div>
+                    <div class="date">
+                        <h4>Release date</h4>
+                        <input type="text" id="date-upd" size="40">
+                    </div>
+                    <div class="ganre">
+                        <h4>Ganre</h4>
+                        <input type="text" id="ganre-upd" size="40">
+                    </div>
+                    <div class="sub">
+                        <h4>Subganre</h4>
+                        <input type="text" id="subganre-upd" size="40">
+                    </div>
+                    <div class="description">
+                        <h4>Write a short description</h4>
+                        <input type="text" name="" id="dscr-upd" size="40">
+                    </div>
+                    <div class="cover">
+                        <h4>Album cover image link</h4>
+                        <input type="url" name="" id="cvr-upd" size="40">
+                    </div>
+                </div>
+                <div class="part-two col-md-6">
+                    <div class="wiki">
+                        <h4>Add a Wikipedia link</h4>
+                        <input type="url" name="" id="wiki-upd" size="40">
+                    </div>
+                    <div class="spotify">
+                        <h4>Add a Spotfy Link</h4>
+                        <input type="url" name="" id="spot-upd"  size="40">
+                    </div>
+                    <div class="deezer">
+                        <h4>Add a Deezer Link</h4>
+                        <input type="url" name="" id="dzr-upd" size="40">
+                    </div>
+                    <div class="youtube">
+                        <h4>Add a YouTube Link</h4>
+                        <input type="url" name="" id="ytb-upd" size="40">
+                    </div>
+                    <div class="facebook">
+                        <h4>Add a Facebook page Link</h4>
+                        <input type="url" name="" id="fcbk-upd" size="40">
+                    </div>
+                    <div class="instagram">
+                        <h4>Add a Instagram page Link</h4>
+                        <input type="url" name="" id="insta-upd" size="40">
+                    </div>
+                    <div class="website">
+                        <h4>Add a Website Link</h4>
+                        <input type="url" name="" id="web-upd" size="40">
+                    </div>
+                </div>    
+                </div>
+                <div class="update">
+                    <button type="button" class="btn btn-primary" id="update-album">Update Album Info</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <script src="script/album_info_edit.js"></script>
+</body>
+</html>

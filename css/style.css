@@ -1,0 +1,412 @@
+body {
+  background-color: #292626;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+body h2 {
+  color: #f1e7e7;
+}
+
+body h3 {
+  color: #f1e7e7;
+}
+
+body h4 {
+  color: #f1e7e7;
+}
+
+body h5 {
+  color: #f1e7e7;
+}
+
+body p {
+  color: #f1e7e7;
+}
+
+.container-nav {
+  background-color: #FCFCFC;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.container-nav .collapse .navbar-collapse {
+  float: right;
+}
+
+.container-nav li a .nav-link {
+  text-decoration: none;
+  float: right;
+  font-size: 42px;
+}
+
+.header .header-home {
+  background: #020024;
+  background: linear-gradient(45deg, #020024 0%, #561cc1 35%, #00d4ff 100%);
+  height: 400px;
+  width: 100%;
+}
+
+.header .header-home h1 {
+  color: #FCFCFC;
+  position: absolute;
+  padding: 10%;
+  font-size: 80px;
+}
+
+.header .header-recommend {
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(35%, #090979), to(#00d4ff));
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  height: 400px;
+  width: 100%;
+}
+
+.header .header-recommend h1 {
+  color: #FCFCFC;
+  position: absolute;
+  padding: 10%;
+  font-size: 80px;
+}
+
+.header .header-login {
+  background: #020024;
+  background: linear-gradient(130deg, #020024 0%, #b11cc1 35%, #00d4ff 100%);
+  height: 400px;
+  width: 100%;
+}
+
+.header .header-login h1 {
+  color: #FCFCFC;
+  position: absolute;
+  padding: 10%;
+  font-size: 80px;
+}
+
+.header .header-albums {
+  background: #020024;
+  background: linear-gradient(45deg, #020024 0%, #27cdee 100%);
+  height: 400px;
+  width: 100%;
+}
+
+.header .header-albums h1 {
+  color: #FCFCFC;
+  position: absolute;
+  padding: 10%;
+  font-size: 80px;
+}
+
+.header .header-album {
+  background: #020024;
+  background: linear-gradient(45deg, #020024 23%, #adb311 100%);
+  height: 400px;
+  width: 100%;
+}
+
+.header .header-album h1 {
+  color: #FCFCFC;
+  position: absolute;
+  padding: 10%;
+  font-size: 80px;
+}
+
+.header .header-edit {
+  background: #020024;
+  background: linear-gradient(45deg, #020024 0%, #800154 29%, #090180 79%);
+  height: 400px;
+  width: 100%;
+}
+
+.header .header-edit h1 {
+  color: #FCFCFC;
+  position: absolute;
+  padding: 10%;
+  font-size: 80px;
+}
+
+.header .header-ganre {
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(96%, #d2d27d));
+  background: linear-gradient(90deg, #020024 0%, #d2d27d 96%);
+  height: 400px;
+  width: 100%;
+}
+
+.header .header-ganre h1 {
+  color: #FCFCFC;
+  position: absolute;
+  padding: 10%;
+  font-size: 80px;
+}
+
+.latest {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.latest .row {
+  padding: 5px;
+}
+
+.latest .row .recomm {
+  padding: 5px;
+}
+
+.latest .row .latest-card {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.ganre-link {
+  margin: 10px;
+  height: 150px;
+  width: 18%;
+  border-radius: 5px;
+  background: #4d44ee;
+  background: linear-gradient(40deg, #4d44ee 0%, #d2987d 96%);
+}
+
+.ganre-link a {
+  padding-top: 15%;
+  font-size: 27px;
+  color: #FCFCFC;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+.login-section {
+  padding: 5%;
+}
+
+.login-section .container {
+  padding: 10%;
+}
+
+.login-section .container .login {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(253, 255, 192, 0.089);
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.albums-edit {
+  padding: 4%;
+}
+
+.albums-edit .container .add-new {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 5%;
+}
+
+.albums-edit .container .card {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(253, 255, 192, 0.418);
+  border-radius: 10px;
+  padding: 0.4%;
+  margin: 5px;
+  float: left;
+  background-color: #464444;
+}
+
+.albums-edit .container .card .card-body {
+  word-wrap: break-word;
+}
+
+.albums-edit .container .card .card-body .btn {
+  margin: 1%;
+}
+
+.by-ganre {
+  padding-top: 5%;
+}
+
+.by-ganre .ganre-selection .container .selected-ganre .album-card {
+  padding: 5px;
+}
+
+.album-section {
+  padding: 5%;
+}
+
+.album-section .container .row {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(253, 255, 192, 0.089);
+}
+
+.album-section .container .row .album {
+  padding: 5%;
+}
+
+.album-section .container .row .album .album-info .artist-name {
+  padding: 2%;
+}
+
+.album-section .container .row .album .album-info .album-name {
+  padding: 2%;
+}
+
+.album-section .container .row .album .album-info .year {
+  padding: 2%;
+}
+
+.album-section .container .row .album .album-info .ganre {
+  padding: 2%;
+}
+
+.album-section .container .row .album .album-info .sub {
+  padding: 2%;
+}
+
+.album-section .container .row .album .album-info .descript {
+  padding: 2%;
+}
+
+.album-section .container .row .album .album-info .wili-link {
+  padding: 2%;
+}
+
+.album-section .container .row .album .album-info .spotify-link {
+  padding: 2%;
+}
+
+.album-section .container .row .album .album-info .dezzer-link {
+  padding: 2%;
+}
+
+.album-section .container .row .album .album-info .youtube-link {
+  padding: 2%;
+}
+
+.album-section .container .row .album .album-info .facebook-link {
+  padding: 2%;
+}
+
+.album-section .container .row .album .album-info .instagram-link {
+  padding: 2%;
+}
+
+.album-section .container .row .album .album-info .web-link {
+  padding: 2%;
+}
+
+.view-section {
+  padding: 3%;
+}
+
+.view-section .container {
+  padding: 5%;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(253, 255, 192, 0.089);
+}
+
+.view-section .container .row .album-edit .album-info {
+  padding: 5%;
+}
+
+.view-section .container .row .album-edit .album-info .wiki-link {
+  padding: 1%;
+}
+
+.view-section .container .row .album-edit .album-info .spotify-link {
+  padding: 1%;
+}
+
+.view-section .container .row .album-edit .album-info .dezzer-link {
+  padding: 1%;
+}
+
+.view-section .container .row .album-edit .album-info .youtube-link {
+  padding: 1%;
+}
+
+.view-section .container .row .album-edit .album-info .facebook-link {
+  padding: 1%;
+}
+
+.view-section .container .row .album-edit .album-info .instagram-link {
+  padding: 1%;
+}
+
+.view-section .container .row .album-edit .album-info .web-link {
+  padding: 1%;
+}
+
+.input {
+  padding: 3%;
+}
+
+.input .container {
+  padding: 5%;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(253, 255, 192, 0.089);
+}
+
+.input .container .row .part-one .artist {
+  padding: 2%;
+}
+
+.input .container .row .part-one .album {
+  padding: 2%;
+}
+
+.input .container .row .part-one .date {
+  padding: 2%;
+}
+
+.input .container .row .part-one .ganre {
+  padding: 2%;
+}
+
+.input .container .row .part-one .sub {
+  padding: 2%;
+}
+
+.input .container .row .part-one .description {
+  padding: 2%;
+}
+
+.input .container .row .part-one .cover {
+  padding: 2%;
+}
+
+.input .container .row .part-two .wiki {
+  padding: 2%;
+}
+
+.input .container .row .part-two .spotify {
+  padding: 2%;
+}
+
+.input .container .row .part-two .deezer {
+  padding: 2%;
+}
+
+.input .container .row .part-two .youtube {
+  padding: 2%;
+}
+
+.input .container .row .part-two .facebook {
+  padding: 2%;
+}
+
+.input .container .row .part-two .instagram {
+  padding: 2%;
+}
+
+.input .container .row .part-two .website {
+  padding: 2%;
+}
+
+.input .container .update {
+  position: relative;
+  padding-top: 5%;
+  padding-left: 1%;
+}
+/*# sourceMappingURL=style.css.map */

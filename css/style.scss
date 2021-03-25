@@ -1,0 +1,378 @@
+$back-color: #292626;
+$font-color: #f1e7e7;
+$h1-color: #FCFCFC;
+$primary-color: #e9b3c5;
+
+body {
+    background-color: $back-color;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    h2 {
+        color: $font-color;
+    }
+    h3 {
+        color: $font-color;
+    }
+    h4 {
+        color: $font-color;
+    }
+    h5 {
+        color: $font-color;
+    }
+    p {
+        color: $font-color;
+    }
+}
+
+.container-nav {
+    background-color: #FCFCFC;
+    padding-left: 5%;
+    padding-right: 5%;
+    .collapse .navbar-collapse {
+        float: right;
+    }
+    li a .nav-link {
+        text-decoration: none;
+        float: right;
+        font-size: 42px;
+    }
+}
+
+.header {
+    .header-home {
+        background: rgb(2,0,36);
+        background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(86,28,193,1) 35%, rgba(0,212,255,1) 100%);
+        height: 400px;
+        width: 100%;
+        h1 {
+            color: $h1-color;
+            position: absolute;
+            padding: 10%;
+            font-size: 80px;
+        };
+    }
+    .header-recommend {
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        height: 400px;
+        width: 100%;
+        h1 {
+            color: $h1-color;
+            position: absolute;
+            padding: 10%;
+            font-size: 80px;
+        };
+    }
+    .header-login {
+        background: rgb(2,0,36);
+        background: linear-gradient(130deg, rgba(2,0,36,1) 0%, rgba(177,28,193,1) 35%, rgba(0,212,255,1) 100%);
+        height: 400px;
+        width: 100%;
+        h1 {
+            color: $h1-color;
+            position: absolute;
+            padding: 10%;
+            font-size: 80px;
+        };
+    }
+    .header-albums {
+        background: rgb(2,0,36);
+        background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(39,205,238,1) 100%);
+        height: 400px;
+        width: 100%;
+        h1 {
+            color: $h1-color;
+            position: absolute;
+            padding: 10%;
+            font-size: 80px;
+        };
+    }
+    .header-album {
+        background: rgb(2,0,36);
+        background: linear-gradient(45deg, rgba(2,0,36,1) 23%, rgba(173,179,17,1) 100%);
+        height: 400px;
+        width: 100%;
+        h1 {
+            color: $h1-color;
+            position: absolute;
+            padding: 10%;
+            font-size: 80px;
+        };
+    }
+    .header-edit {
+        background: rgb(2,0,36);
+        background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(128,1,84,1) 29%, rgba(9,1,128,1) 79%);
+        height: 400px;
+        width: 100%;
+        h1 {
+            color: $h1-color;
+            position: absolute;
+            padding: 10%;
+            font-size: 80px;
+        };
+    }
+    .header-ganre {
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(210,210,125,1) 96%);
+        height: 400px;
+        width: 100%;
+        h1 {
+            color: $h1-color;
+            position: absolute;
+            padding: 10%;
+            font-size: 80px;
+        };
+    }
+}
+
+.latest {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    .row {
+        padding: 5px;
+        .recomm {
+            padding: 5px;
+        }
+        .latest-card {
+            padding: 5px;
+            border-radius: 10px;
+        }
+    }
+}
+
+.ganre-link {
+    margin: 10px;
+    height: 150px;
+    width: 18%;
+    border-radius: 5px;
+    background: rgb(77,68,238);
+    background: linear-gradient(40deg, rgba(77,68,238,1) 0%, rgba(210,152,125,1) 96%);
+    a {
+        padding-top: 15%;
+        font-size: 27px;
+        color: $h1-color;
+        text-decoration: none;
+        vertical-align: baseline;
+    }
+}
+
+.login-section {
+    padding: 5%;
+    .container {
+        padding: 10%;
+        .login {
+            border-radius: 5px;
+            border-style: solid;
+            border-color: rgba(253, 255, 192, 0.089);
+            padding: 5%;
+            border-radius: 10px;
+        }
+    }
+}
+
+.albums-edit {
+    padding: 4%;
+    .container{
+        .add-new {
+            padding-left: 5%;
+            padding-right: 5%;
+            margin: 5%;
+        }
+        .card {
+            border-radius: 5px;
+            border-style: solid;
+            border-color: rgba(253, 255, 192, 0.418);
+            border-radius: 10px;
+            padding: 0.4%;
+            margin: 5px;
+            float: left;
+            background-color: rgb(70, 68, 68);
+
+            .card-body {
+                word-wrap: break-word;
+                .btn {
+                    margin: 1%;
+                }
+            }
+        }
+        
+    }
+    
+}
+
+
+.by-ganre {
+    padding-top: 5%;
+    .ganre-selection {
+        .container {
+                .selected-ganre {
+                    .album-card {
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+
+.album-section {
+    padding: 5%;
+    .container {
+        .row {
+            border-radius: 5px;
+            border-style: solid;
+            border-color: rgba(253, 255, 192, 0.089);
+            .album {
+                padding: 5%;
+                .album-info {
+                    .artist-name {
+                        padding: 2%;
+                    }
+                    .album-name {
+                        padding: 2%; 
+                    }
+                    .year {
+                        padding: 2%;
+                    }
+                    .ganre {
+                        padding: 2%;
+                    }
+                    .sub {
+                        padding: 2%;
+                    }
+                    .descript {
+                        padding: 2%;
+                    }
+                    .wili-link {
+                        padding: 2%;
+                    }
+                    .spotify-link {
+                        padding: 2%;
+                    }
+                    .dezzer-link {
+                        padding: 2%;
+                    }
+                    .youtube-link {
+                        padding: 2%;
+                    }
+                    .facebook-link {
+                        padding: 2%;
+                    }
+                    .instagram-link {
+                        padding: 2%;
+                    }
+                    .web-link {
+                        padding: 2%;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+.view-section {
+    padding: 3%;
+    .container {
+        padding: 5%;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: rgba(253, 255, 192, 0.089);
+        .row {
+            .album-edit {
+                .album-info {
+                    padding: 5%;
+                    .wiki-link {
+                        padding: 1%;
+                    }
+                    .spotify-link {
+                        padding: 1%;
+                    }
+                    .dezzer-link {
+                        padding: 1%;
+                    }
+                    .youtube-link {
+                        padding: 1%;
+                    }
+                    .facebook-link {
+                        padding: 1%;
+                    }
+                    .instagram-link {
+                        padding: 1%;
+                    }
+                    .web-link {
+                        padding: 1%;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.input {
+    padding: 3%;
+    .container {
+        padding: 5%;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: rgba(253, 255, 192, 0.089);
+
+        .row {
+            .part-one {
+                .artist {
+                    padding: 2%
+                }
+                .album {
+                    padding: 2%;
+                }
+                .date {
+                    padding: 2%;
+                }
+                .ganre {
+                    padding: 2%;
+                }
+                .sub {
+                    padding: 2%;
+                }
+                .description {
+                    padding: 2%;
+                }
+                .cover {
+                    padding: 2%;
+                }
+
+            }
+            .part-two {
+                .wiki {
+                    padding: 2%;
+                }
+                .spotify {
+                    padding: 2%;
+                }
+                .deezer {
+                    padding: 2%;
+                }
+                .youtube {
+                    padding: 2%;
+                }
+                .facebook {
+                    padding: 2%;
+                }
+                .instagram {
+                    padding: 2%;
+                }
+                .website {
+                    padding: 2%;
+                }
+            }
+        }
+        .update {
+            position: relative;
+            padding-top: 5%;
+            padding-left: 1%;
+        } 
+    } 
+
+}
